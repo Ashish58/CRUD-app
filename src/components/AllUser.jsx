@@ -1,6 +1,7 @@
 import { useEffect,useState } from "react";
-import { Table,TableBody, TableHead, TableRow,TableCell,styled } from "@mui/material";
+import { Table,TableBody, TableHead, TableRow,TableCell,styled,Button } from "@mui/material";
 import {getUsers} from '../service/api';
+import {Link} from 'react-router-dom';
 
 
 
@@ -50,6 +51,8 @@ const[users,setUsers]=useState([]);
                 <TableCell>Usename</TableCell>
                 <TableCell>Email</TableCell>
                 <TableCell>Phone</TableCell>
+                <TableCell></TableCell>
+
                 </Thead>
             </TableHead>
             <TableBody>
@@ -61,6 +64,10 @@ const[users,setUsers]=useState([]);
                         <TableCell>{user.username}</TableCell>
                         <TableCell>{user.email}</TableCell>
                         <TableCell>{user.phone}</TableCell>
+                        <TableCell>
+                            <Button variant="contained" style={{background:'#3d77f8',marginRight:10}} component={Link} to={`/edit/${user.id}`}>Edit</Button>
+                            <Button variant="contained" style={{background:'red'}}>Delete</Button>
+                        </TableCell>
                     </Tbody>
                 ))
             }
