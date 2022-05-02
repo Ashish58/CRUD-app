@@ -1,0 +1,19 @@
+.t1{
+    color: rgb(126, 126, 36);
+    text-decoration: underline;
+}
+
+.t2{
+    color: rgb(79, 90, 123);
+    text-decoration: underline;
+}
+
+.nav{
+    background-color: rgb(77, 76, 122);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.body{
+    background-color: antiquewhite;
+}

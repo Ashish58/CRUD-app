@@ -1,4 +1,4 @@
-import { AppBar, Toolbar, Typography, styled } from "@mui/material";
+import { AppBar, Toolbar, styled } from "@mui/material";
 import { NavLink } from "react-router-dom";
 
 const Header = styled(AppBar)`
@@ -18,9 +18,9 @@ const NavBar = () => {
   return (
     <Header>
       <Toolbar>
-        <Tabs to="/">CURD-APP</Tabs>
-        <Tabs to="/alluser">All User</Tabs>
-        <Tabs to="/adduser">Add User</Tabs>
+        <Tabs to="/" className='nav'>CURD-APP</Tabs>
+        <Tabs to="/alluser" className='nav'>Show User</Tabs>
+        <Tabs to="/adduser" className='nav'> Add User</Tabs>
       </Toolbar>
     </Header>
   );
