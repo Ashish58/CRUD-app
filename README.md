@@ -1,3 +1,30 @@
+# To run:<br/>
+# 1.npm start<br/>
+# 2.npm run json-server<br/>
+
+
+
+<img width="960" alt="showuser" src="https://user-images.githubusercontent.com/92203552/166294029-d2083d9c-75d2-4e35-82c5-9b22015245b9.png">
+<img width="960" alt="adduser" src="https://user-images.githubusercontent.com/92203552/166294101-de4e48bb-c391-46d7-96e7-d5f2ca199681.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
