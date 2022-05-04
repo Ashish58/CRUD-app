@@ -1,5 +1,5 @@
 import "../Front.css";
-const Curd =()=>{
+const Crud =()=>{
     return(
         <>
       <div className="body">
@@ -19,4 +19,4 @@ const Curd =()=>{
 </>
     )
 }
-export default Curd;
+export default Crud;
