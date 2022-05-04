@@ -4,7 +4,7 @@ const Curd =()=>{
         <>
       <div className="body">
         <div className="t1">
-        <h1>This CURD App is Create Using React & MaterialUI</h1>
+        <h1>This CRUD App is Create Using React & MaterialUI</h1>
         </div>
         <div className="t2">
         <h2>Following are the operation it can perform</h2>
