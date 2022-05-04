@@ -4,7 +4,7 @@
       "name": "Ashish Anand",
       "username": "ashish2001",
       "email": "anandashish956@gmail.com",
-      "phone": "3453687633",
+      "phone": "9862913265",
       "id": 1
     },
     {
@@ -20,6 +20,13 @@
       "email": "abc35@gmail.com",
       "phone": "55343554",
       "id": 3
+    },
+    {
+      "name": "aayush",
+      "username": "aayush45",
+      "email": "aayush232@gmail.com",
+      "phone": "5435345345",
+      "id": 5
     }
   ]
 }

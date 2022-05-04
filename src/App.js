@@ -2,7 +2,7 @@ import './App.css';
 
 //components
 import NavBar from './components/NavBar';
-import Curd from './components/Curd';
+import Crud from './components/Crud';
 import AllUser from './components/AllUser';
 import AddUser from './components/AddUser';
 import EditUser from './components/EditUser';
@@ -16,7 +16,7 @@ function App() {
     <NavBar/>
 
     <Routes>
-    <Route path="/" element={<Curd/>} />
+    <Route path="/" element={<Crud/>} />
     <Route path="alluser" element={<AllUser/>}/>
     <Route path="adduser" element={<AddUser/>}/>
     <Route path="/edit/:id" element={<EditUser/>}/>

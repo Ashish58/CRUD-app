@@ -18,7 +18,7 @@ const NavBar = () => {
   return (
     <Header>
       <Toolbar>
-        <Tabs to="/" className='nav'>CURD-APP</Tabs>
+        <Tabs to="/" className='nav'>CRUD-APP</Tabs>
         <Tabs to="/alluser" className='nav'>Show User</Tabs>
         <Tabs to="/adduser" className='nav'> Add User</Tabs>
       </Toolbar>
